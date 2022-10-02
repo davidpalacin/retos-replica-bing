@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+.navbar, .main, .footer{
+    display: flex;
+}
+.navbar{
+    padding: 3px 50px;
+    
+}
+.leftSide{
+    display: flex;
+    margin-left: 50px;
+}
+.leftElement{
+    margin: 0 15px;
+    align-self: center;
+}
