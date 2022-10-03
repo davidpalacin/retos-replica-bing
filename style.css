@@ -9,6 +9,7 @@ body{
     background-image: url(img/bgimage.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    
 }
 .navbar, .main, .footer{
     display: flex;
@@ -61,6 +62,7 @@ textarea:focus, input:focus{
 .iconsSearch{
     color: rgb(33, 151, 255);
     margin: 0 5px;
+    cursor: pointer;
 }
 .boxIcons{
     margin: 0 5px;
