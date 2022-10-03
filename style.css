@@ -2,19 +2,69 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    }
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+body{
+    background-image: url(img/bgimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .navbar, .main, .footer{
     display: flex;
 }
 .navbar{
     padding: 3px 50px;
-    
+    align-items: center;
+    font-size: 15px;
 }
 .leftSide{
     display: flex;
     margin-left: 50px;
 }
-.leftElement{
+.leftElement, .rightElement{
     margin: 0 15px;
-    align-self: center;
+    cursor: pointer;
+}
+.leftElement:hover, .rightElement:hover{
+    text-decoration: underline;
+}
+.rightSide{
+    display: flex;
+    margin-left: auto;
+}
+.main{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+.boxIpt{
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+.iptSearch{
+    color: black;
+    width: 500px;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+}
+.boxIpt{
+    display: flex;
+    align-items: center;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.iconsSearch{
+    color: rgb(33, 151, 255);
+    margin: 0 5px;
+}
+.boxIcons{
+    margin: 0 5px;
+    display: flex;
+    height: fit-content;
+    width: fit-content;
 }
